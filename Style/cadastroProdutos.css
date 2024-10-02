@@ -1,0 +1,58 @@
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.btn-container button{
+  color: #fff;
+  background-color: #017143;
+  transition: 0.5s;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: 600;
+}
+
+
+button:hover{
+ 
+  color: #017143;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: 600;
+}
+
+
+
+.container{
+  background-color: #017143;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #017143;
+}
+
+label{
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-modal{
+  color: #fff;
+  background-color: #017143;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: 500;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+

@@ -1,0 +1,60 @@
+@media (max-width: 720px) and (orientation: portrait) {
+  .descricao{
+    display: none;
+  }
+}
+
+
+.btn-filtrar {
+  color: #fff;
+  background-color: #017143;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.btn-imprimir{
+  color: #fff;
+  background-color: #017143;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.card-pedido{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid #017143;
+  border-radius: 4px;
+  gap: 8px;
+  
+  
+}
+
+.card-pedido-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grafico-1{
+  width: 100%;
+}
+
+.grafico-2{
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  text-wrap: nowrap;
+}
